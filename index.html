@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Contact Book</h1>
+
+    <!-- Form -->
+    <div>
+      <form action="">
+        <span>Name</span>
+        <input type="text" name="" id="name" placeholder="name" />
+        <br />
+        <br />
+        <span>Phone</span>
+        <input type="number" name="" id="phone" placeholder="phone" />
+        <br />
+        <br />
+        <span>Email</span>
+        <input type="email" name="" id="mail" placeholder="email" />
+        <br />
+        <br />
+        <span>Photo</span>
+        <input type="text" id="picture" placeholder="link of a picture" />
+        <br />
+        <br />
+        <button>Add Contact</button>
+      </form>
+      <ul></ul>
+    </div>
+
+    <!-- Modal -->
+    <div id="big-modal">
+      <div id="modal">
+        <p id="modal-close">X</p>
+        <h2>Modal Window</h2>
+        <input type="text" id="modal-nameInp" />
+        <input type="text" id="modal-numberInp" />
+        <input type="text" id="modal-urlInp" />
+        <button id="btnSave">Save</button>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
